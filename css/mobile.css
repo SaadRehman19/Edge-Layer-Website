@@ -1,0 +1,51 @@
+#what .ITEMS {
+    display: block;
+}
+
+
+/* SMARPHONES */
+
+@media(max-width:500px) {
+    #navbar {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center
+    }
+    #navbar .logo {
+        padding-bottom: 0.75rem;
+    }
+    #showcase .showcase-content {
+        top: 90px;
+    }
+    #who {
+        display: block;
+    }
+    #who .who-img {
+        display: none;
+    }
+    #clients .item img {
+        width: 80%;
+    }
+    #clients .item div:last-child {
+        display: none;
+    }
+    #contact {
+        flex-direction: column;
+    }
+    #contact .map {
+        padding-top: 300px;
+        height: 100%;
+        border-top: 3px black solid;
+    }
+}
+
+
+/* #what .ITEMS .item {
+    display: flex;
+    text-align: left;
+}
+
+#what .ITEMS .item i {
+    margin-right: 1rem;
+    align-self: center;
+} */
