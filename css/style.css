@@ -135,13 +135,14 @@ a {
 
 #navbar ul li a {
     color: #fff;
-    padding: 0rem 0.75rem;
+    padding: 0rem 0.85rem;
     margin: 0rem 0.25rem;
 }
 
 #navbar ul li a:hover {
     background: rgb(14, 177, 14);
-    border-radius: 5px;
+    border-radius: 20px;
+    padding: 0.5rem 1.25rem;
 }
 
 
